@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <title>Joule-consultants JC</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/icon.png" />
+  </head>
+  <body>
+    <div
+      id="construct"
+      style="
+        background-image: url(images/Under-Construction1.jpg);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+      "
+    ></div>
+    <script type="text/javascript">
+      $(function () {
+        var winWidth = $(window).width();
+        var winHeight = $(window).height();
+        $("#construct").css("width", winWidth);
+        $("#construct").css("height", winHeight);
+      });
+    </script>
+  </body>
+</html>
